@@ -1,0 +1,172 @@
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ echo 'hello world'
+hello world
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ pwd
+/c/Users/losch
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ cd Desktop/python
+Python_Buchalka/
+python-3-object-oriented-programming.pdf
+python-3-object-oriented-programming.rar
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ cd Desktop/Python_Buchalka/
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ ll -h
+total 26K
+-rw-r--r-- 1 Miloš Bobić 197609  516 Sep 25 18:23 ChalangeBinary.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.5K Sep 22 20:55 ChalangeDictionary.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.1K Dec 11 14:30 ChalengeFor.py
+-rw-r--r-- 1 Miloš Bobić 197609  263 Aug  4 22:58 ChallangeIf.py
+-rw-r--r-- 1 Miloš Bobić 197609  507 Aug 21 15:08 ChallengeLists.py
+-rw-r--r-- 1 Miloš Bobić 197609  450 Sep 11 16:07 Dicti.py
+-rw-r--r-- 1 Miloš Bobić 197609   22 Aug  2 20:05 Hello_world.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.3K Nov 12 13:56 ShelveBuch.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.3K Dec 13 18:44 TimeChallenge.py
+-rw-r--r-- 1 Miloš Bobić 197609  385 Aug 30 19:49 Tupleti.py
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 11 14:28 __pycache__/
+-rw-r--r-- 1 Miloš Bobić 197609  101 Dec 11 14:28 turtle.py
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 10 21:55 untitled/
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ pwd
+/c/Users/losch/Desktop/Python_Buchalka
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ git config --global --list
+fatal: unable to read config file 'C:/Users/losch/.gitconfig': No such file or directory
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ git config --global user.name 'Milos Bobic'
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ git config --global --list
+user.name=Milos Bobic
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ git config --global user.email 'loschmie76@yahoo.com'
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ git config --global --list
+user.name=Milos Bobic
+user.email=loschmie76@yahoo.com
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ vim ~/.gitconfig
+.git/                  ChallengeLists.py      Tupleti.py
+ChalangeBinary.py      Dicti.py               __pycache__/
+ChalangeDictionary.py  Hello_world.py         turtle.py
+ChalengeFor.py         ShelveBuch.py          untitled/
+ChallangeIf.py         TimeChallenge.py
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ vim ~/.gitconfig
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ cat ~/.gitconfig
+[user]
+        name = Milos Bobic
+        email = loschmie76@yahoo.com
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ ll -h
+total 26K
+-rw-r--r-- 1 Miloš Bobić 197609  516 Sep 25 18:23 ChalangeBinary.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.5K Sep 22 20:55 ChalangeDictionary.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.1K Dec 11 14:30 ChalengeFor.py
+-rw-r--r-- 1 Miloš Bobić 197609  263 Aug  4 22:58 ChallangeIf.py
+-rw-r--r-- 1 Miloš Bobić 197609  507 Aug 21 15:08 ChallengeLists.py
+-rw-r--r-- 1 Miloš Bobić 197609  450 Sep 11 16:07 Dicti.py
+-rw-r--r-- 1 Miloš Bobić 197609   22 Aug  2 20:05 Hello_world.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.3K Nov 12 13:56 ShelveBuch.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.3K Dec 13 18:44 TimeChallenge.py
+-rw-r--r-- 1 Miloš Bobić 197609  385 Aug 30 19:49 Tupleti.py
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 11 14:28 __pycache__/
+-rw-r--r-- 1 Miloš Bobić 197609  101 Dec 11 14:28 turtle.py
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 10 21:55 untitled/
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ ll -ah
+total 66K
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 20 13:52 ./
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 19 20:13 ../
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 20 13:52 .git/
+-rw-r--r-- 1 Miloš Bobić 197609  516 Sep 25 18:23 ChalangeBinary.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.5K Sep 22 20:55 ChalangeDictionary.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.1K Dec 11 14:30 ChalengeFor.py
+-rw-r--r-- 1 Miloš Bobić 197609  263 Aug  4 22:58 ChallangeIf.py
+-rw-r--r-- 1 Miloš Bobić 197609  507 Aug 21 15:08 ChallengeLists.py
+-rw-r--r-- 1 Miloš Bobić 197609  450 Sep 11 16:07 Dicti.py
+-rw-r--r-- 1 Miloš Bobić 197609   22 Aug  2 20:05 Hello_world.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.3K Nov 12 13:56 ShelveBuch.py
+-rw-r--r-- 1 Miloš Bobić 197609 1.3K Dec 13 18:44 TimeChallenge.py
+-rw-r--r-- 1 Miloš Bobić 197609  385 Aug 30 19:49 Tupleti.py
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 11 14:28 __pycache__/
+-rw-r--r-- 1 Miloš Bobić 197609  101 Dec 11 14:28 turtle.py
+drwxr-xr-x 1 Miloš Bobić 197609    0 Dec 10 21:55 untitled/
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka (master)
+$ cd .git/
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka/.git (GIT_DIR!)
+$ ll
+total 7
+-rw-r--r-- 1 Miloš Bobić 197609  23 Dec 20 13:52 HEAD
+-rw-r--r-- 1 Miloš Bobić 197609 130 Dec 20 13:52 config
+-rw-r--r-- 1 Miloš Bobić 197609  73 Dec 20 13:52 description
+drwxr-xr-x 1 Miloš Bobić 197609   0 Dec 20 13:52 hooks/
+drwxr-xr-x 1 Miloš Bobić 197609   0 Dec 20 13:52 info/
+drwxr-xr-x 1 Miloš Bobić 197609   0 Dec 20 13:52 objects/
+drwxr-xr-x 1 Miloš Bobić 197609   0 Dec 20 13:52 refs/
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka/.git (GIT_DIR!)
+$ cat config
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+
+Miloš Bobić@Milos-PC MINGW64 ~/Desktop/Python_Buchalka/.git (GIT_DIR!)
+$ cd
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ cat .gitconfig
+[user]
+        name = Milos Bobic
+        email = loschmie76@yahoo.com
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ pwd
+/c/Users/losch
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ curl -O https://raw.githubusercontent.com/git/git/master/contirb/completion/git-prompt.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    15  100    15    0     0     27      0 --:--:-- --:--:-- --:--:--    30
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ vim .bashrc
+
+Miloš Bobić@Milos-PC MINGW64 ~
+$ cat .bashrc
+. ~/git-prompt.sh
+export GIT_PS1_SHOWDRITYSTATE=1
+export PS1='[\u@\j \W$(__git_ps1 " (%s)")\$ '
+
+
+Miloš Bobić@Milos-PC MINGW64 ~
